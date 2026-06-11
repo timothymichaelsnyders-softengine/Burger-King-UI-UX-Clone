@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;850;800&family=JetBrains+Mono:wght@300;400;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bk-red: #D62300;
+  --color-bk-orange: #F57C00;
+  --color-bk-yellow: #FFB300;
+  --color-bk-charcoal: #121212;
+  --color-bk-cream: #FDF9F4;
+  --color-bk-terracotta: #502314;
+  --color-bk-sand: #F5EBE0;
+
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --animate-spin-slow: spin 20s linear infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF4500;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ef4444;
+}
+
+/* Hide scrollbar for category scroller */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Add helpful support for extra small fonts */
+.text-xxs {
+  font-size: 0.65rem;
+}
+.text-xxs {
+  line-height: 0.85rem;
+}
+.text-xxs {
+  letter-spacing: 0.025em;
+}
+
+.text-xxxs {
+  font-size: 0.55rem;
+}
+.text-xxxs {
+  line-height: 0.75rem;
+}
+
+/* Base custom font application */
+body {
+  font-family: var(--font-sans);
+  background-color: #09090b;
+  color: #fafafa;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Burger King Premium web experience",
+  "description": "An elite, modern, and high-converting Burger King web experience featuring an interactive burger builder, delivery tracker, live menu, and rewards program.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
